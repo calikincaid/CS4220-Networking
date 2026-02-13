@@ -16,4 +16,4 @@ Python Version = 3.10.12
 ```python
 python3 webserver.py # starts the web server
 ```
-2. Use browser to navigate to `localhost:8080/HelloWorld.html` web server hello world page [Web Server Link](http://localhost:8080/HelloWorld.html)
+2. Use browser to navigate to `127.0.0.1:8080/HelloWorld.html` web server hello world page. [Web Server Link](http://127.0.0.1:8080/HelloWorld.html)

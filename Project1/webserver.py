@@ -2,10 +2,15 @@
 from socket import *
 import sys  # In order to terminate the program
 
+SERVER_ADDR = "127.0.0.1"
+SERVER_PORT = 8080
+
 serverSocket = socket(AF_INET, SOCK_STREAM)
 
 # Prepare a server socket
 # Fill in start
+serverSocket.bind(SERVER_ADDR, SERVER_PORT)
+serverSocket.listen()
 # Fill in end
 
 while True:
